@@ -277,7 +277,10 @@ header .social-links{
 	text-align:center;
 	background: rgba(255, 255, 255, 0.1);
 	padding:10px;
-	
+	margin-bottom: 10px;
+}
+.s-container .s-item:hover{
+	background: #18d26e;
 }
 .s-container .s-item .fa{
 	background: #18d26e;
@@ -286,8 +289,15 @@ header .social-links{
     border-radius: 5px;
 	margin-top: 15px;
 	margin-bottom: 10px;
+    box-shadow: #bcb8b8 -10px -10px;
 }
-.s-container p{
+
+.s-container .s-item .fa:hover{
+	color: #18d26e;
+	background: #fff;
+}
+}
+.s-container .s-item p{
 	font-size: 14px;
 	line-height:24px;
 }
@@ -332,6 +342,10 @@ header .social-links{
 		display:flex;
 		flex-wrap: wrap;
 	}
+	.s-container p{
+	font-size: 14px;
+	line-height:24px;
+}
 	.s-container .lg-33{
 		width:33.33%;	
 		box-sizing: border-box;
